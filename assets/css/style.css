@@ -1,11 +1,25 @@
+
+@font-face {
+  font-family: 'WiegelKurrentMedium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('WiegelKurrentMedium'), url('assets\font\wiegel-kurrent\WiegelKurrentMedium.ttf') format('truetype');
+}
 body {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
   background-color: #D9C193;
 }
 
-.container {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+@font-face {
+  font-family: GraublauWeb; src: url("assets\font\wiegel-kurrent\WiegelKurrentMedium.ttf") format("opentype");
   font: bold;
   color: black;
+}
+
+.container {
+
+
 }
 
 #main-image {
