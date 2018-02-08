@@ -5,20 +5,28 @@
   font-weight: normal;
   src: local('WiegelKurrentMedium'), url('assets\font\wiegel-kurrent\WiegelKurrentMedium.ttf') format('truetype');
 }
+
 body {
-  font-family: 'Tangerine', serif;
-  font-size: 48px;
+  font-size: 16px;
+  background-color: ;
+}
+
+.second-column {
+  background-color: white;
+}
+
+.third-column {
   background-color: #D9C193;
 }
 
-@font-face {
-  font-family: GraublauWeb; src: url("assets\font\wiegel-kurrent\WiegelKurrentMedium.ttf") format("opentype");
-  font: bold;
-  color: black;
+h {
+  font-family: 'WiegelKurrentMedium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('WiegelKurrentMedium'), url('assets\font\wiegel-kurrent\WiegelKurrentMedium.ttf') format('truetype');
 }
 
 .container {
-
 
 }
 
