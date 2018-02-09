@@ -8,23 +8,54 @@
 
 body {
   font-size: 16px;
-  background-color: ;
+  background-color: #837673;
+  position: relative;
+}
+
+
+.first-column {
+  width: 280px;
+  padding-right: 0px;
 }
 
 .second-column {
   background-color: white;
+  height: 450px;
+  width: 295px;
 }
 
 .third-column {
   background-color: #D9C193;
+  height: 450px;
+  width: 295px;
 }
 
-h {
+.fourth-column {
+  float: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 270px;
+}
+
+h1 {
   font-family: 'WiegelKurrentMedium';
   font-style: normal;
   font-weight: normal;
   src: local('WiegelKurrentMedium'), url('assets\font\wiegel-kurrent\WiegelKurrentMedium.ttf') format('truetype');
 }
+
+h2 {
+  font-family: 'WiegelKurrentMedium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('WiegelKurrentMedium'), url('assets\font\wiegel-kurrent\WiegelKurrentMedium.ttf') format('truetype');
+}
+
+hr {
+    color: black;
+    height: 3px;
+}
+
 
 .container {
 
@@ -36,11 +67,13 @@ h {
 }
 
 #left-image {
-  width: 245px;
-  height: 400px;
+  width: 100%;
+  height: 450px;
+  float: left;
 }
 
 #right-image {
-  width:245px;
-  height: 400px;
+  width: 100%;
+  height: 450px;
+  float: left;
 }
